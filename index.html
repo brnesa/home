@@ -188,6 +188,19 @@ h1.page-title { font-size: 22px; font-weight: 700; letter-spacing: -0.4px; }
   max-width: 680px; margin: 10px auto 0; padding: 0 16px;
   font-size: 12px; color: var(--text2); text-align: center;
 }
+
+/* ── Exportar / Importar ── */
+.io-bar {
+  max-width: 680px; margin: 12px auto 0; padding: 0 16px;
+  display: flex; gap: 8px;
+}
+.io-btn {
+  flex: 1; padding: 9px; border-radius: 10px; cursor: pointer;
+  font-family: var(--font); font-size: 13px; font-weight: 600;
+  background: rgba(255,255,255,0.6); color: var(--accent);
+  border: 1px solid rgba(52,120,246,0.35);
+}
+.io-btn:hover { background: rgba(52,120,246,0.08); }
 </style>
 </head>
 <body>
@@ -450,7 +463,12 @@ function render() {
     displayItems.map(item => renderTile(item)).join(''),
     editMode && !searchQuery ? renderAddTile('bookmark') + renderAddTile('folder') : '',
     '</div>',
-    editMode && !searchQuery ? '<div class="hint">Toque num item para editar/mover · arraste sobre uma pasta para mover para dentro</div>' : '',
+    editMode && !searchQuery ? `<div class="io-bar">
+      <button class="io-btn" id="btn-export">⬇︎ Exportar backup</button>
+      <button class="io-btn" id="btn-import">⬆︎ Importar backup</button>
+      <input type="file" id="import-file" accept=".json,application/json" style="display:none">
+    </div>
+    <div class="hint">Toque num item para editar/mover · arraste sobre uma pasta para mover para dentro</div>` : '',
     modal ? renderModal() : '',
   ].join('');
 
@@ -561,6 +579,37 @@ function attachEvents() {
     searchQuery = e.target.value; render();
     const inp = document.getElementById('search-input');
     if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
+  });
+
+  // Exportar / Importar
+  document.getElementById('btn-export')?.addEventListener('click', () => {
+    const payload = { app: 'preferidos', version: 2, exportedAt: new Date().toISOString(), items };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'preferidos-backup-' + new Date().toISOString().slice(0,10) + '.json';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  });
+  document.getElementById('btn-import')?.addEventListener('click', () => {
+    document.getElementById('import-file')?.click();
+  });
+  document.getElementById('import-file')?.addEventListener('change', e => {
+    const file = e.target.files[0]; if (!file) return;
+    const r = new FileReader();
+    r.onload = () => {
+      try {
+        const parsed = JSON.parse(r.result);
+        const data = Array.isArray(parsed) ? parsed : parsed.items;   // aceita backup ou array cru
+        if (!Array.isArray(data) || !data.every(i => i && i.id && i.name !== undefined))
+          throw new Error('estrutura inválida');
+        if (!confirm('Substituir TODOS os favoritos atuais pelo backup (' + data.length + ' itens na raiz)?')) return;
+        items = data; saveData(); render();
+      } catch (err) {
+        alert('Arquivo de backup inválido: ' + err.message);
+      }
+    };
+    r.readAsText(file);
   });
 
   document.querySelectorAll('.tile:not(.add-tile)').forEach(tile => {
