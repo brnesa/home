@@ -1,43 +1,5 @@
 [
  {
-  "id": "f-cbs",
-  "type": "folder",
-  "emoji": "✂️",
-  "name": "CBS",
-  "items": [
-   {
-    "id": "c1",
-    "name": "AppBarber",
-    "url": "https://sistema.appbarber.com.br/login.php"
-   },
-   {
-    "id": "c2",
-    "name": "Barcode Lookup",
-    "url": "https://cosmos.bluesoft.com.br/"
-   },
-   {
-    "id": "c3",
-    "name": "CBS Website",
-    "url": "https://www.barbeariacantarino.com/"
-   },
-   {
-    "id": "c4",
-    "name": "Titan Mail",
-    "url": "https://titan.hostgator.com.br/mail/"
-   },
-   {
-    "id": "c5",
-    "name": "Vnnox (Display)",
-    "url": "https://us.vnnox.com/#/login"
-   },
-   {
-    "id": "c6",
-    "name": "Yelsew",
-    "url": "https://yelsew.com.br/"
-   }
-  ]
- },
- {
   "id": "f-gov",
   "type": "folder",
   "emoji": "🏛️",
@@ -433,6 +395,44 @@
     "id": "b4",
     "name": "MEI Billing",
     "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao"
+   }
+  ]
+ },
+ {
+  "id": "f-cbs",
+  "type": "folder",
+  "emoji": "",
+  "name": "CBS",
+  "items": [
+   {
+    "id": "c1",
+    "name": "AppBarber",
+    "url": "https://sistema.appbarber.com.br/login.php"
+   },
+   {
+    "id": "c2",
+    "name": "Barcode Lookup",
+    "url": "https://cosmos.bluesoft.com.br/"
+   },
+   {
+    "id": "c3",
+    "name": "CBS Website",
+    "url": "https://www.barbeariacantarino.com/"
+   },
+   {
+    "id": "c4",
+    "name": "Titan Mail",
+    "url": "https://titan.hostgator.com.br/mail/"
+   },
+   {
+    "id": "c5",
+    "name": "Vnnox (Display)",
+    "url": "https://us.vnnox.com/#/login"
+   },
+   {
+    "id": "c6",
+    "name": "Yelsew",
+    "url": "https://yelsew.com.br/"
    }
   ]
  }
