@@ -317,14 +317,14 @@
     "url": "https://shoppingsmiles.com.br/home"
    },
    {
-    "id": "r4",
-    "name": "Toca da Pizza",
-    "url": "https://pedido.anota.ai/"
-   },
-   {
     "id": "r5",
     "name": "Visa Benefits",
     "url": "https://visabenefitslac.axa-assistance.us/"
+   },
+   {
+    "id": "r4",
+    "name": "Toca da Pizza",
+    "url": "https://pedido.anota.ai/toca-da-pizza"
    }
   ]
  },
