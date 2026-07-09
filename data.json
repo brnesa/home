@@ -401,12 +401,6 @@
     "url": "https://pimeyes.com/pt"
    },
    {
-    "id": "id-1783434925970-yt0cu",
-    "type": "bookmark",
-    "name": "GitHub (hub)",
-    "url": "https://github.com"
-   },
-   {
     "id": "t5",
     "name": "HostGator",
     "url": "https://financeiro.hostgator.com.br/index.php"
@@ -450,5 +444,11 @@
   "name": "Proton Mail",
   "url": "https://mail.proton.me/u/1/inbox",
   "icon": "https://www.google.com/s2/favicons?sz=64&domain=proton.me"
+ },
+ {
+  "id": "id-1783434925970-yt0cu",
+  "type": "bookmark",
+  "name": "GitHub (hub)",
+  "url": "https://github.com"
  }
 ]
