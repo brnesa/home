@@ -101,16 +101,16 @@
     "url": "https://www.gov.br/pt-br"
    },
    {
-    "id": "g6",
-    "name": "Issue Invoice (NFS-e)",
-    "url": "https://www.nfse.gov.br/EmissorNacional/",
-    "icon": "https://www.google.com/s2/favicons?sz=64&domain=gov.br/"
-   },
-   {
     "id": "g7",
     "name": "SINAL — Barbacena City Hall",
     "url": "https://barbacena.mg.sinal.quasar.srv.br/alvara/login.xhtml",
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=barbacena.mg.gov.br"
+   },
+   {
+    "id": "g6",
+    "name": "Issue Invoice (NFS-e)",
+    "url": "https://www.nfse.gov.br/EmissorNacional/",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=nfse.gov.br"
    }
   ]
  },
