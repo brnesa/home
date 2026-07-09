@@ -1,51 +1,5 @@
 [
  {
-  "id": "f-gov",
-  "type": "folder",
-  "emoji": "",
-  "name": "Gov",
-  "items": [
-   {
-    "id": "g1",
-    "name": "Check DANFE",
-    "url": "https://consultadanfe.com/#"
-   },
-   {
-    "id": "g2",
-    "name": "Consumidor.gov",
-    "url": "https://www.consumidor.gov.br/pages/principal/"
-   },
-   {
-    "id": "g3",
-    "name": "e-CAC / DTE",
-    "url": "https://cav.receita.fazenda.gov.br/autenticacao",
-    "icon": "https://www.google.com/s2/favicons?sz=64&domain=gov.br"
-   },
-   {
-    "id": "g4",
-    "name": "Free Gov Courses",
-    "url": "https://www.educacaonamao.com.br/r/cursos-gratuitos-do-governo-como-funcionam/"
-   },
-   {
-    "id": "g5",
-    "name": "Gov.br Portal",
-    "url": "https://www.gov.br/pt-br"
-   },
-   {
-    "id": "g6",
-    "name": "Issue Invoice (NFS-e)",
-    "url": "https://www.nfse.gov.br/EmissorNacional/",
-    "icon": "https://www.google.com/s2/favicons?sz=64&domain=gov.br/"
-   },
-   {
-    "id": "g7",
-    "name": "SINAL — Barbacena City Hall",
-    "url": "https://barbacena.mg.sinal.quasar.srv.br/alvara/login.xhtml",
-    "icon": "https://www.google.com/s2/favicons?sz=64&domain=barbacena.mg.gov.br"
-   }
-  ]
- },
- {
   "id": "f-pharma",
   "type": "folder",
   "emoji": "",
@@ -447,6 +401,52 @@
     "name": "MEI Billing",
     "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao",
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=gov.br"
+   }
+  ]
+ },
+ {
+  "id": "f-gov",
+  "type": "folder",
+  "emoji": "🇧🇷",
+  "name": "Gov",
+  "items": [
+   {
+    "id": "g1",
+    "name": "Check DANFE",
+    "url": "https://consultadanfe.com/#"
+   },
+   {
+    "id": "g2",
+    "name": "Consumidor.gov",
+    "url": "https://www.consumidor.gov.br/pages/principal/"
+   },
+   {
+    "id": "g3",
+    "name": "e-CAC / DTE",
+    "url": "https://cav.receita.fazenda.gov.br/autenticacao",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=gov.br"
+   },
+   {
+    "id": "g4",
+    "name": "Free Gov Courses",
+    "url": "https://www.educacaonamao.com.br/r/cursos-gratuitos-do-governo-como-funcionam/"
+   },
+   {
+    "id": "g5",
+    "name": "Gov.br Portal",
+    "url": "https://www.gov.br/pt-br"
+   },
+   {
+    "id": "g6",
+    "name": "Issue Invoice (NFS-e)",
+    "url": "https://www.nfse.gov.br/EmissorNacional/",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=gov.br/"
+   },
+   {
+    "id": "g7",
+    "name": "SINAL — Barbacena City Hall",
+    "url": "https://barbacena.mg.sinal.quasar.srv.br/alvara/login.xhtml",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=barbacena.mg.gov.br"
    }
   ]
  }
