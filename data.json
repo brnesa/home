@@ -330,7 +330,8 @@
    {
     "id": "r4",
     "name": "Toca da Pizza",
-    "url": "https://pedido.anota.ai/loja/toca-da-pizza-delivery"
+    "url": "https://pedido.anota.ai/loja/toca-da-pizza-delivery",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=anota.ai"
    }
   ]
  },
