@@ -186,11 +186,6 @@
   "name": "Rewards",
   "items": [
    {
-    "id": "r1",
-    "name": "Esfera (Hub)",
-    "url": "https://www.esfera.com.vc/junte-pontos/junte-pontos/esf02163"
-   },
-   {
     "id": "r2",
     "name": "Livelo (Hub)",
     "url": "https://www.livelo.com.br/juntar-pontos/todos-os-parceiros"
@@ -306,6 +301,11 @@
       "url": "https://www.livelo.com.br/juntar-pontos/parceiros/shopee/PEE"
      }
     ]
+   },
+   {
+    "id": "r1",
+    "name": "Esfera HUB",
+    "url": "https://www.esfera.com.vc/junte-pontos/junte-pontos/esf02163"
    }
   ]
  },
