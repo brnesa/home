@@ -50,15 +50,15 @@
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=cemig.com.br"
    },
    {
-    "id": "b3",
-    "name": "Claro PJ",
-    "url": "https://minhaclaroempresas.claro.com.br",
-    "icon": "https://www.google.com/s2/favicons?sz=64&domain=claro.com.br"
-   },
-   {
     "id": "b2",
     "name": "Claro PF",
     "url": "https://auth.claro.com.br/authorize?client_id=INT_AA_PORTALUNICO&response_type=code&scope=openid+minha_claro_dig+minha_net+net_devices+net_profile&redirect_uri=https%3A%2F%2Fclaro.com.br%2Fminha%2Farea-logada%2Fauth%2Fcallback&grant_type=authorization_code&nonce=abc123",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=claro.com.br"
+   },
+   {
+    "id": "b3",
+    "name": "Claro PJ",
+    "url": "https://minhaclaroempresas.claro.com.br",
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=claro.com.br"
    },
    {
@@ -186,6 +186,12 @@
     "url": "https://www.consumidor.gov.br/pages/principal/"
    },
    {
+    "id": "g3",
+    "name": "e-CAC / DTE",
+    "url": "https://cav.receita.fazenda.gov.br/autenticacao",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=gov.br"
+   },
+   {
     "id": "id-1783626801098-spo5u",
     "type": "bookmark",
     "name": "Escola Virtual Gov",
@@ -212,12 +218,6 @@
     "name": "SINAL — Barbacena City Hall",
     "url": "https://barbacena.mg.sinal.quasar.srv.br/alvara/login.xhtml",
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=barbacena.mg.gov.br"
-   },
-   {
-    "id": "g3",
-    "name": "e-CAC / DTE",
-    "url": "https://cav.receita.fazenda.gov.br/autenticacao",
-    "icon": "https://www.google.com/s2/favicons?sz=64&domain=gov.br"
    }
   ]
  },
@@ -402,9 +402,32 @@
     "url": "https://dictionary.cambridge.org/"
    },
    {
+    "id": "t1",
+    "name": "Canva",
+    "url": "https://www.canva.com/"
+   },
+   {
+    "id": "t3",
+    "name": "CorteCloud",
+    "url": "https://marceneiro.cortecloud.com.br/#/plans"
+   },
+   {
     "id": "t4",
     "name": "Face Search",
     "url": "https://pimeyes.com/pt"
+   },
+   {
+    "id": "id-1783434925970-yt0cu",
+    "type": "bookmark",
+    "name": "GitHub",
+    "url": "https://github.com"
+   },
+   {
+    "id": "id-1783568348443-ly4si",
+    "type": "bookmark",
+    "name": "Proton Mail",
+    "url": "https://mail.proton.me/u/1/inbox",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=proton.me"
    },
    {
     "id": "t10",
@@ -420,29 +443,6 @@
     "id": "t12",
     "name": "Site Trust (SC)",
     "url": "https://www.siteconfiavel.com.br/"
-   },
-   {
-    "id": "t3",
-    "name": "CorteCloud",
-    "url": "https://marceneiro.cortecloud.com.br/#/plans"
-   },
-   {
-    "id": "t1",
-    "name": "Canva",
-    "url": "https://www.canva.com/"
-   },
-   {
-    "id": "id-1783434925970-yt0cu",
-    "type": "bookmark",
-    "name": "GitHub",
-    "url": "https://github.com"
-   },
-   {
-    "id": "id-1783568348443-ly4si",
-    "type": "bookmark",
-    "name": "Proton Mail",
-    "url": "https://mail.proton.me/u/1/inbox",
-    "icon": "https://www.google.com/s2/favicons?sz=64&domain=proton.me"
    }
   ]
  }
