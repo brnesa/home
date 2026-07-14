@@ -151,6 +151,11 @@
       "url": "https://studio.youtube.com/channel/UCl_Kf4f3zyBTXNDIS6CRoPA"
      }
     ]
+   },
+   {
+    "id": "t14",
+    "name": "WGSN Trends",
+    "url": "http://www.wgsn.com/en/trading/fashion-buying"
    }
   ]
  },
@@ -425,11 +430,6 @@
     "id": "t12",
     "name": "Site Trust (SC)",
     "url": "https://www.siteconfiavel.com.br/"
-   },
-   {
-    "id": "t14",
-    "name": "WGSN Trends",
-    "url": "http://www.wgsn.com/en/trading/fashion-buying"
    }
   ]
  },
