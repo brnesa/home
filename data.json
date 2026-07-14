@@ -112,6 +112,12 @@
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=gov.br"
    },
    {
+    "id": "id-1783626801098-spo5u",
+    "type": "bookmark",
+    "name": "Escola Virtual Gov",
+    "url": "https://www.escolavirtual.gov.br/"
+   },
+   {
     "id": "g4",
     "name": "Free Gov Courses",
     "url": "https://www.educacaonamao.com.br/r/cursos-gratuitos-do-governo-como-funcionam/"
@@ -132,12 +138,6 @@
     "name": "SINAL — Barbacena City Hall",
     "url": "https://barbacena.mg.sinal.quasar.srv.br/alvara/login.xhtml",
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=barbacena.mg.gov.br"
-   },
-   {
-    "id": "id-1783626801098-spo5u",
-    "type": "bookmark",
-    "name": "Escola Virtual Gov",
-    "url": "https://www.escolavirtual.gov.br/"
    }
   ]
  },
@@ -178,115 +178,6 @@
     "url": "https://www.drogariaspacheco.com.br/"
    }
   ]
- },
- {
-  "id": "f-social",
-  "type": "folder",
-  "emoji": "🛜",
-  "name": "Social",
-  "items": [
-   {
-    "id": "s1",
-    "name": "Influencer Check",
-    "url": "https://www.upfluence.com/?utm_source=organic&utm_campaign=direct"
-   },
-   {
-    "id": "s2",
-    "name": "Links WhatsApp",
-    "url": "https://api.chatpro.com.br/gerador-de-links"
-   },
-   {
-    "id": "s3",
-    "name": "Meta Business Suite",
-    "url": "https://business.facebook.com/latest/home?nav_ref=bm_home_redirect&business_id=186514359175309&asset_id=151640708033527"
-   },
-   {
-    "id": "t9",
-    "name": "Reels Downloader",
-    "url": "https://sssinstagram.com/pt/reels-downloader"
-   },
-   {
-    "id": "s4",
-    "name": "SEO AlsoAsked",
-    "url": "https://alsoasked.com/"
-   },
-   {
-    "id": "s5",
-    "name": "Youtube Studio",
-    "url": "https://studio.youtube.com/channel/UCl_Kf4f3zyBTXNDIS6CRoPA"
-   }
-  ]
- },
- {
-  "id": "f-tools",
-  "type": "folder",
-  "emoji": "🛠️",
-  "name": "Tools",
-  "items": [
-   {
-    "id": "t2",
-    "name": "Cambridge",
-    "url": "https://dictionary.cambridge.org/"
-   },
-   {
-    "id": "t1",
-    "name": "Canva",
-    "url": "https://www.canva.com/"
-   },
-   {
-    "id": "t3",
-    "name": "CorteCloud",
-    "url": "https://marceneiro.cortecloud.com.br/#/plans"
-   },
-   {
-    "id": "t4",
-    "name": "Face Search",
-    "url": "https://pimeyes.com/pt"
-   },
-   {
-    "id": "t5",
-    "name": "HostGator",
-    "url": "https://financeiro.hostgator.com.br/index.php"
-   },
-   {
-    "id": "t7",
-    "name": "QR Code Generator",
-    "url": "https://genqrcode.com/"
-   },
-   {
-    "id": "t10",
-    "name": "Shodan",
-    "url": "https://www.shodan.io/"
-   },
-   {
-    "id": "t11",
-    "name": "Site Trust (RA)",
-    "url": "https://www.reclameaqui.com.br/detector-site-confiavel/"
-   },
-   {
-    "id": "t12",
-    "name": "Site Trust (SC)",
-    "url": "https://www.siteconfiavel.com.br/"
-   },
-   {
-    "id": "t14",
-    "name": "WGSN Trends",
-    "url": "http://www.wgsn.com/en/trading/fashion-buying"
-   }
-  ]
- },
- {
-  "id": "id-1783434925970-yt0cu",
-  "type": "bookmark",
-  "name": "GitHub",
-  "url": "https://github.com"
- },
- {
-  "id": "id-1783568348443-ly4si",
-  "type": "bookmark",
-  "name": "Proton Mail",
-  "url": "https://mail.proton.me/u/1/inbox",
-  "icon": "https://www.google.com/s2/favicons?sz=64&domain=proton.me"
  },
  {
   "id": "f-rewards",
@@ -417,5 +308,114 @@
     "url": "https://visabenefitslac.axa-assistance.us/"
    }
   ]
+ },
+ {
+  "id": "f-social",
+  "type": "folder",
+  "emoji": "🛜",
+  "name": "Social",
+  "items": [
+   {
+    "id": "s1",
+    "name": "Influencer Check",
+    "url": "https://www.upfluence.com/?utm_source=organic&utm_campaign=direct"
+   },
+   {
+    "id": "s2",
+    "name": "Links WhatsApp",
+    "url": "https://api.chatpro.com.br/gerador-de-links"
+   },
+   {
+    "id": "s3",
+    "name": "Meta Business Suite",
+    "url": "https://business.facebook.com/latest/home?nav_ref=bm_home_redirect&business_id=186514359175309&asset_id=151640708033527"
+   },
+   {
+    "id": "t9",
+    "name": "Reels Downloader",
+    "url": "https://sssinstagram.com/pt/reels-downloader"
+   },
+   {
+    "id": "s4",
+    "name": "SEO AlsoAsked",
+    "url": "https://alsoasked.com/"
+   },
+   {
+    "id": "s5",
+    "name": "Youtube Studio",
+    "url": "https://studio.youtube.com/channel/UCl_Kf4f3zyBTXNDIS6CRoPA"
+   }
+  ]
+ },
+ {
+  "id": "f-tools",
+  "type": "folder",
+  "emoji": "🛠️",
+  "name": "Tools",
+  "items": [
+   {
+    "id": "t2",
+    "name": "Cambridge",
+    "url": "https://dictionary.cambridge.org/"
+   },
+   {
+    "id": "t1",
+    "name": "Canva",
+    "url": "https://www.canva.com/"
+   },
+   {
+    "id": "t3",
+    "name": "CorteCloud",
+    "url": "https://marceneiro.cortecloud.com.br/#/plans"
+   },
+   {
+    "id": "t4",
+    "name": "Face Search",
+    "url": "https://pimeyes.com/pt"
+   },
+   {
+    "id": "t5",
+    "name": "HostGator",
+    "url": "https://financeiro.hostgator.com.br/index.php"
+   },
+   {
+    "id": "t7",
+    "name": "QR Code Generator",
+    "url": "https://genqrcode.com/"
+   },
+   {
+    "id": "t10",
+    "name": "Shodan",
+    "url": "https://www.shodan.io/"
+   },
+   {
+    "id": "t11",
+    "name": "Site Trust (RA)",
+    "url": "https://www.reclameaqui.com.br/detector-site-confiavel/"
+   },
+   {
+    "id": "t12",
+    "name": "Site Trust (SC)",
+    "url": "https://www.siteconfiavel.com.br/"
+   },
+   {
+    "id": "t14",
+    "name": "WGSN Trends",
+    "url": "http://www.wgsn.com/en/trading/fashion-buying"
+   }
+  ]
+ },
+ {
+  "id": "id-1783434925970-yt0cu",
+  "type": "bookmark",
+  "name": "GitHub",
+  "url": "https://github.com"
+ },
+ {
+  "id": "id-1783568348443-ly4si",
+  "type": "bookmark",
+  "name": "Proton Mail",
+  "url": "https://mail.proton.me/u/1/inbox",
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=proton.me"
  }
 ]
