@@ -452,12 +452,6 @@
   "name": "AI",
   "items": [
    {
-    "id": "id-1783434925970-yt0cu",
-    "type": "bookmark",
-    "name": "GitHub",
-    "url": "https://github.com"
-   },
-   {
     "id": "id-1783970466810-8cs6q",
     "type": "bookmark",
     "name": "MetaAi",
@@ -470,5 +464,11 @@
     "url": "https://gemini.google.com/app?hl=pt-BR"
    }
   ]
+ },
+ {
+  "id": "id-1783434925970-yt0cu",
+  "type": "bookmark",
+  "name": "GitHub",
+  "url": "https://github.com"
  }
 ]
