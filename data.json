@@ -433,6 +433,12 @@
   ]
  },
  {
+  "id": "id-1783626801098-spo5u",
+  "type": "bookmark",
+  "name": "Escola Virtual Gov",
+  "url": "https://www.escolavirtual.gov.br/"
+ },
+ {
   "id": "gemini",
   "type": "bookmark",
   "name": "Gemini",
@@ -445,22 +451,16 @@
   "url": "https://github.com"
  },
  {
+  "id": "id-1783970466810-8cs6q",
+  "type": "bookmark",
+  "name": "MetaAi",
+  "url": "https://www.meta.ai/"
+ },
+ {
   "id": "id-1783568348443-ly4si",
   "type": "bookmark",
   "name": "Proton Mail",
   "url": "https://mail.proton.me/u/1/inbox",
   "icon": "https://www.google.com/s2/favicons?sz=64&domain=proton.me"
- },
- {
-  "id": "id-1783626801098-spo5u",
-  "type": "bookmark",
-  "name": "Escola Virtual Gov",
-  "url": "https://www.escolavirtual.gov.br/"
- },
- {
-  "id": "id-1783970466810-8cs6q",
-  "type": "bookmark",
-  "name": "MetaAi",
-  "url": "https://www.meta.ai/"
  }
 ]
