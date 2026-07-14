@@ -67,7 +67,8 @@
    {
     "id": "b1",
     "name": "CEMIG (Energy)",
-    "url": "https://atende.cemig.com.br/Login"
+    "url": "https://atende.cemig.com.br/Login",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=cemig.com.br"
    },
    {
     "id": "b3",
