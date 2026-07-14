@@ -26,32 +26,6 @@
   ]
  },
  {
-  "id": "id-1784004377661-6bp4mamr",
-  "type": "folder",
-  "emoji": "🤖",
-  "name": "AI (cópia)",
-  "items": [
-   {
-    "id": "id-1784004377661-7paph13s",
-    "type": "bookmark",
-    "name": "DeepSeek",
-    "url": "https://www.deepseek.com/en/"
-   },
-   {
-    "id": "id-1784004377661-3h7tdn3s",
-    "type": "bookmark",
-    "name": "Gemini",
-    "url": "https://gemini.google.com/app?hl=pt-BR"
-   },
-   {
-    "id": "id-1784004377661-6b094svk",
-    "type": "bookmark",
-    "name": "MetaAi",
-    "url": "https://www.meta.ai/"
-   }
-  ]
- },
- {
   "id": "f-cbs",
   "type": "folder",
   "emoji": "💈",
