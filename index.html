@@ -1584,8 +1584,8 @@ function renderModal() {
     <div class="modal-box" id="modal-box">
       <div class="modal-title">${title}</div>
       ${isMove ? `<div class="modal-label">${escHtml(it.name)}</div>` + folderSelect : `
-      ${isFolder ? `<div class="modal-label">Emoji (opcional)</div><input class="modal-input" id="form-emoji" placeholder="Deixe vazio para pasta sem emoji" maxlength="4" value="${it ? it.emoji || '' : ''}">
-      <div class="modal-label">Ícone (opcional — mostra o favicon no lugar da prévia)</div>
+      ${isFolder ? `<div class="modal-label">Emoji*</div><input class="modal-input" id="form-emoji" placeholder="Deixe vazio para pasta sem emoji" maxlength="4" value="${it ? it.emoji || '' : ''}">
+      <div class="modal-label">icone Site → Pasta</div>
       <input class="modal-input" id="form-icon" placeholder="dominio.com" value="${it ? iconUrlToField(it.icon||'').replace(/"/g,'&quot;') : ''}">` : ''}
       <div class="modal-label">Nome</div>
       <input class="modal-input" id="form-name" placeholder="Nome" value="${it ? it.name.replace(/"/g,'&quot;') : ''}">
