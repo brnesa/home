@@ -45,6 +45,44 @@
    ]
   },
   {
+   "id": "id-1784638102503-5kz3slj1",
+   "type": "folder",
+   "emoji": "🤖",
+   "name": "AI (cópia)",
+   "items": [
+    {
+     "id": "id-1784638102504-ij7af6o9",
+     "type": "bookmark",
+     "name": "ChatGPT",
+     "url": "https://chatgpt.com/"
+    },
+    {
+     "id": "id-1784638102504-7r79la2w",
+     "type": "bookmark",
+     "name": "DeepSeek",
+     "url": "https://www.deepseek.com/en/"
+    },
+    {
+     "id": "id-1784638102504-i8185kel",
+     "type": "bookmark",
+     "name": "Gemini",
+     "url": "https://gemini.google.com/app?hl=pt-BR"
+    },
+    {
+     "id": "id-1784638102504-wqm5gng9",
+     "type": "bookmark",
+     "name": "Grok",
+     "url": "https://grok.com/"
+    },
+    {
+     "id": "id-1784638102504-gphbrrlh",
+     "type": "bookmark",
+     "name": "MetaAi",
+     "url": "https://www.meta.ai/"
+    }
+   ]
+  },
+  {
    "id": "f-billing",
    "type": "folder",
    "emoji": "🧾",
